@@ -11,9 +11,14 @@ go get -u github.com/stretchr/testify
 go get -u github.com/swaggo/swag/cmd/swag
 go get -u github.com/swaggo/files
 go get -u github.com/swaggo/gin-swagger
+export PATH=$PATH/$HOME/go/bin
+
+## add dotenv
+
+go get -u github.com/joho/godotenv
 
 ## DB connection
 
 ## MySQL Driver
 
-go get -u github.com/go-sql-driver/mysql # AcmeWiki
+go get -u github.com/go-sql-driver/mysql
